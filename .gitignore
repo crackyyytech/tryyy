@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment variables (NEVER commit these)
+.env
+.env.local
+.env.production
+
+# Vercel
+.vercel
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Prisma migrations (generate fresh on deployment)
+# Keep schema.prisma and seed.js but migrations are auto-generated
+# Comment this out if you want to track migrations in git (recommended for teams):
+# prisma/migrations/
+
+# IDE
+.idea/
+*.swp
